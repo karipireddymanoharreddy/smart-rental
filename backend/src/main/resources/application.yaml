@@ -1,0 +1,40 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/rental_platform_v2
+    username: root
+    password: 9000824146
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: karipireddymanoharreddy@gmail.com
+    password: cuycwmwhobnpvnvs
+
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+
+server:
+  port: 8080
+
+cloudinary:
+  cloud-name: nsfjvchx
+  api-key: 389611667817984
+  api-secret: QvR8qWbDtQ9kykeVk_qhRkjjka4
+
+
+
+
+  logging:
+  level:
+    root: INFO
+    com.example.rental_platform: DEBUG
